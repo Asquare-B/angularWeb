@@ -13,12 +13,14 @@
 	</div>
 <app-vaccinecard></app-vaccinecard>
 
-<div class="guide">
-	<app-covidcard></app-covidcard>
-	<app-covidcard></app-covidcard>
-	<app-covidcard></app-covidcard>
-	<app-covidcard></app-covidcard>
+<div class="guides">
+	<div class="guide">
+		<p *ngFor="let d of data">
+		<app-covidcard [d]="d"></app-covidcard>
+		</p>
+	</div>
 </div>
+
 
 <div class="whyus">
 	<app-whyuscard></app-whyuscard>

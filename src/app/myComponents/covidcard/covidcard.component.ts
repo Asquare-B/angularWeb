@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { guidlines } from 'src/app/class';
 
 @Component({
   selector: 'app-covidcard',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CovidcardComponent implements OnInit {
 
-  constructor() { }
+  @Input()
+  d: guidlines = new guidlines;
+
+  constructor() { 
+    
+  }
 
   ngOnInit(): void {
   }

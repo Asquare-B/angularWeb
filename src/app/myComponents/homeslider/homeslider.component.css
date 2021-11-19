@@ -102,13 +102,14 @@
   }
   }
 
+ 
 
   .guide{
       position: relative;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
+      display: inline-block;
+      justify-content: flex-start;
       padding-bottom: 40px;
+      
   }
 
   .service .title{
