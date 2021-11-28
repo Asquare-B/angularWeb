@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './myComponents/footer/footer.component';
@@ -38,7 +38,11 @@ import { FaqQuesComponent } from './myComponents/faq-ques/faq-ques.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule.forRoot([
+      {path: 'home', component: HomesliderComponent},
+      {path: 'faq', component: FaqComponent},
+      {path: '', redirectTo: '/home', pathMatch: 'full'},
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,8 +1,17 @@
-.card{
-    padding: 40px;
-    background-color: aqua;
+
+
+.card-outer{
+opacity: 0.3;
 }
 
+.card{
+    padding: 40px;
+    background-color: rgba(127, 255, 212, 0.137);
+/*background-image: url("./../../../assets/images/hello.jpg");
+background-repeat: no-repeat;
+background-size: cover;*/
+    opacity: 1;
+}
 .parts{
     display: flex;
     flex-direction: row;
