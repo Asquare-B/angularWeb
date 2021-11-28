@@ -106,8 +106,9 @@
 
   .guide{
       position: relative;
-      display: inline-block;
-      justify-content: flex-start;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
       padding-bottom: 40px;
       
   }

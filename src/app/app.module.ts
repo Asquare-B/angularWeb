@@ -14,6 +14,9 @@ import { ServicecardComponent } from './myComponents/servicecard/servicecard.com
 import { CommentcardComponent } from './myComponents/commentcard/commentcard.component';
 import { WhyuscardComponent } from './myComponents/whyuscard/whyuscard.component';
 import { CoutercardComponent } from './myComponents/coutercard/coutercard.component';
+import { ContentComponent } from './myComponents/content/content.component';
+import { FaqComponent } from './myComponents/faq/faq.component';
+import { FaqQuesComponent } from './myComponents/faq-ques/faq-ques.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { CoutercardComponent } from './myComponents/coutercard/coutercard.compon
     CommentcardComponent,
     HomesliderComponent,
     WhyuscardComponent,
-    CoutercardComponent
+    CoutercardComponent,
+    ContentComponent,
+    FaqComponent,
+    FaqQuesComponent
   ],
   imports: [
     BrowserModule,
