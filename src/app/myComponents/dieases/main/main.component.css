@@ -1,6 +1,9 @@
 
 /* header*/
 
+.navbar{
+	height: 100px;
+}
 
 .slider-item {
 	height: 50%;
@@ -17,7 +20,8 @@
 .carousel-caption {
     color: #000;
 	height: fit-content;
-    padding-bottom: 270px;
+	top: 200px;
+	bottom: auto;
 }
 .carousel-caption h5 {
 	font-size: 45px;

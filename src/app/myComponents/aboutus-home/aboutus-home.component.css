@@ -1,5 +1,7 @@
 
-
+.navbar{
+	height: 100px;
+}
 .slider-item {
 	height: 50%;
 	min-width: 100%;
@@ -15,7 +17,8 @@
 .carousel-caption {
     color: #000;
 	height: fit-content;
-    padding-bottom: 220px;
+	top: 200px;
+	bottom: auto;
 }
 .carousel-caption h5 {
 	font-size: 45px;
@@ -43,4 +46,14 @@
 	display: inline-block;
 	color: #fff;
 	margin-top: 15px;
+}
+
+
+.whyus{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.counter{
+	margin-top: -90px;
 }

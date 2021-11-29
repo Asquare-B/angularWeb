@@ -39,6 +39,10 @@ import { ApplicationDoctoHospitalComponent } from './myComponents/application-do
 import { ApplicationFormComponent } from './myComponents/application-form/application-form.component';
 import { ApplicationHosComponent } from './myComponents/application-hos/application-hos.component';
 import { ApplicationComponent } from './myComponents/application/application.component';
+import { AboutusComponent } from './myComponents/aboutus/aboutus.component';
+import { Contactcard2Component } from './myComponents/contactcard2/contactcard2.component';
+import { SigninComponent } from './myComponents/signin/signin.component';
+import { SignupComponent } from './myComponents/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +81,11 @@ import { ApplicationComponent } from './myComponents/application/application.com
     ApplicationDoctoHospitalComponent,
     ApplicationFormComponent,
     ApplicationHosComponent,
-    ApplicationComponent
+    ApplicationComponent,
+    AboutusComponent,
+    Contactcard2Component,
+    SigninComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
@@ -87,6 +95,10 @@ import { ApplicationComponent } from './myComponents/application/application.com
       {path: 'dieases', component: MainComponent},
       {path: 'hospital', component: HospialListComponent},
       {path: 'appointment', component: ApplicationComponent},
+      {path: 'contact', component: ContactusHomeComponent},
+      {path: 'aboutus', component: AboutusHomeComponent},
+      {path: 'signin', component: SigninComponent},
+      {path: 'signup', component: SignupComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
     FormsModule
