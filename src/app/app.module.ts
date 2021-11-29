@@ -43,6 +43,14 @@ import { AboutusComponent } from './myComponents/aboutus/aboutus.component';
 import { Contactcard2Component } from './myComponents/contactcard2/contactcard2.component';
 import { SigninComponent } from './myComponents/signin/signin.component';
 import { SignupComponent } from './myComponents/signup/signup.component';
+import { DoctorViewComponent } from './myComponents/doctor-view/doctor-view.component';
+import { DoctorPatientComponent } from './myComponents/doctor-patient/doctor-patient.component';
+import { DoctorOverviewComponent } from './myComponents/doctor-overview/doctor-overview.component';
+import { DoctorLocationComponent } from './myComponents/doctor-location/doctor-location.component';
+import { DoctorListComponent } from './myComponents/doctor-list/doctor-list.component';
+import { DoctorItemComponent } from './myComponents/doctor-item/doctor-item.component';
+import { DoctorDetailsCardComponent } from './myComponents/doctor-details-card/doctor-details-card.component';
+import { DoctorContactComponent } from './myComponents/doctor-contact/doctor-contact.component';
 
 @NgModule({
   declarations: [
@@ -85,7 +93,15 @@ import { SignupComponent } from './myComponents/signup/signup.component';
     AboutusComponent,
     Contactcard2Component,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    DoctorViewComponent,
+    DoctorPatientComponent,
+    DoctorOverviewComponent,
+    DoctorLocationComponent,
+    DoctorListComponent,
+    DoctorItemComponent,
+    DoctorDetailsCardComponent,
+    DoctorContactComponent
   ],
   imports: [
     BrowserModule,
@@ -94,6 +110,7 @@ import { SignupComponent } from './myComponents/signup/signup.component';
       {path: 'faq', component: FaqComponent},
       {path: 'dieases', component: MainComponent},
       {path: 'hospital', component: HospialListComponent},
+      {path: 'doctors', component: DoctorListComponent},
       {path: 'appointment', component: ApplicationComponent},
       {path: 'contact', component: ContactusHomeComponent},
       {path: 'aboutus', component: AboutusHomeComponent},
