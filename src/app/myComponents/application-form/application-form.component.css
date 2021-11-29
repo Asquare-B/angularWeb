@@ -42,8 +42,9 @@ html, body {
     border-radius: 3px;
     }
     input {
-    width: calc(100% - 10px);
+    width: calc(100% - 300px);
     padding: 5px;
+    margin-left: 20px;
     }
     input[type="date"] {
     padding: 4px 5px;
