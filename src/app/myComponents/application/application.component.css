@@ -55,6 +55,29 @@
   justify-content: space-evenly;
 }
 
+.con2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  font-family: merienda;
+}
+
+.con2 p{
+  padding-top: 10px;
+
+}
+
+.heading{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: merienda;
+}
+
+
+
   .display-1,
   .display-2,
   h5 {
