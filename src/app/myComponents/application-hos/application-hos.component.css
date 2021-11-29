@@ -10,10 +10,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    padding: 2%;
-    max-width: 75%;
-    margin-left: 19%;
-    margin-right: 19%;
+    padding-bottom: 30px;
 }
 
 .image img{
