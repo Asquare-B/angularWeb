@@ -69,9 +69,6 @@
     }
   }
   
-  body {
-    color: #000;
-  }
 
 @media  screen and (max-width:760px) {
     .leftside,.rightside{
@@ -82,14 +79,6 @@
     }
 }
 
-
-.g1{
-  background-color: whitesmoke;
-}
-
-.g2{
-  background-color: gainsboro;
-}
 
 #words{
   font-weight: bold;
