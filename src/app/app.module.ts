@@ -31,6 +31,14 @@ import { HospitalListItemComponent } from './myComponents/hospital-list-item/hos
 import { HospitalLocationComponent } from './myComponents/hospital-location/hospital-location.component';
 import { HospitalOverviewComponent } from './myComponents/hospital-overview/hospital-overview.component';
 import { HospitalviewComponent } from './myComponents/hospitalview/hospitalview.component';
+import { AboutusHomeComponent } from './myComponents/aboutus-home/aboutus-home.component';
+import { ContactusHomeComponent } from './myComponents/contactus-home/contactus-home.component';
+import { ErrorHomeComponent } from './myComponents/error-home/error-home.component';
+import { ApplicationDocComponent } from './myComponents/application-doc/application-doc.component';
+import { ApplicationDoctoHospitalComponent } from './myComponents/application-docto-hospital/application-docto-hospital.component';
+import { ApplicationFormComponent } from './myComponents/application-form/application-form.component';
+import { ApplicationHosComponent } from './myComponents/application-hos/application-hos.component';
+import { ApplicationComponent } from './myComponents/application/application.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +69,15 @@ import { HospitalviewComponent } from './myComponents/hospitalview/hospitalview.
     HospitalListItemComponent,
     HospitalLocationComponent,
     HospitalOverviewComponent,
-    HospitalviewComponent
+    HospitalviewComponent,
+    AboutusHomeComponent,
+    ContactusHomeComponent,
+    ErrorHomeComponent,
+    ApplicationDocComponent,
+    ApplicationDoctoHospitalComponent,
+    ApplicationFormComponent,
+    ApplicationHosComponent,
+    ApplicationComponent
   ],
   imports: [
     BrowserModule,
@@ -70,6 +86,7 @@ import { HospitalviewComponent } from './myComponents/hospitalview/hospitalview.
       {path: 'faq', component: FaqComponent},
       {path: 'dieases', component: MainComponent},
       {path: 'hospital', component: HospialListComponent},
+      {path: 'appointment', component: ApplicationComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
     FormsModule

@@ -11,15 +11,12 @@
 			</div>
 		</div>
 <div id= "con1" class="row g-0">
-    <div class="col-md-6 g-0">
-        <div class="leftside">
+    <div class="col-md-5 g-0">
             <div *ngFor="let list of listHospital; let i = index" (click)="onclick(list,i)" [ngClass]="{'g2' : selectedind==i, 'g1': selectedind!=i}">
                 <app-hospital-list-item [List_item]="list" ></app-hospital-list-item>
             </div>
-        </div>
     </div>
-    <div class="col-md-6 g-0">
-        <div class="rightside">
+    <div class="col-md-7 g-0">
             <div *ngIf="value">
                <app-hospitalview [selector]="selected" [url]="urlSafe"></app-hospitalview>
             </div>
@@ -62,6 +59,5 @@
                 </div>
                  </div>
             </div>
-        </div>
     </div>
 </div>
