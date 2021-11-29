@@ -1,0 +1,54 @@
+.flip-card{
+    margin-left: 2%;
+    height: 9cm;
+    border-radius: 12px;
+    width: 22.5%;
+    float: left; 
+    perspective: 1000px;
+    box-shadow: 10px 10px;
+    background-color: rgb(40, 146, 252);
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.flip-card-inner{
+   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    
+
+}
+
+.flip-card:hover .flip-card-inner{
+    border-radius: 12px;
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back{
+    border-radius: 12px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front{
+    
+    background-color: rgb(156, 156, 156);
+   
+    
+}
+
+.flip-card-back{
+ background-color: dodgerblue;
+ color: white;
+transform:rotateY(180deg);
+background-color: rgb(61, 60, 58);
+}
