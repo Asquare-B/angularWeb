@@ -49,7 +49,13 @@
 	margin-top: 15px;
 }
 
-
+.con1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 
   .display-1,
   .display-2,
@@ -74,16 +80,6 @@
     .rectimage{
         height: 25vh;
     }
-}
-
-.leftside{
-    overflow: auto;
-    background-color:whitesmoke;
-}
-
-.rightside{
-    overflow: auto;
-    background-color:mintcream;
 }
 
 
@@ -125,9 +121,6 @@ h1 {
   margin-bottom: 40px
 }
 
-label {
-  color: #333
-}
 
 input{
   min-width: 300px;

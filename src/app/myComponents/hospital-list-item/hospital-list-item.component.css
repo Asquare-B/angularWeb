@@ -8,7 +8,7 @@
     background-color: rgba(3, 212, 240, 0.267);
     border-radius: 25px;
     margin: 20px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.24);
+    /*box-shadow: 5px 5px rgba(0, 0, 0, 0.24);*/
 }
 
 .card-body{
@@ -21,4 +21,10 @@
     height: 125px;
     border-radius: 50%;
     align-items: center;
+}
+
+.itemimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
