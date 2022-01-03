@@ -9,7 +9,7 @@ body{
 	box-sizing: border-box;
 }
 .container{
-	max-width: 1170px;
+	max-width: 1263px;
 	margin:auto;
 }
 .row{
@@ -106,6 +106,10 @@ ul{
 
 #email-d{
 	padding-top: 25px;
+}
+
+input{
+	width: 200px;
 }
 
 #ed{

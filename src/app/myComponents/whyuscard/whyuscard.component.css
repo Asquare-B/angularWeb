@@ -7,9 +7,6 @@ opacity: 0.3;
 .card{
     padding: 40px;
     background-color: rgba(127, 255, 212, 0.137);
-/*background-image: url("./../../../assets/images/hello.jpg");
-background-repeat: no-repeat;
-background-size: cover;*/
     opacity: 1;
 }
 .parts{
@@ -19,7 +16,7 @@ background-size: cover;*/
 }
 
 .parts #part1{
-    max-width: 50%;
+    max-width: 65%;
 }
 
 img{
@@ -32,6 +29,22 @@ img{
     padding-top: 10px;
     margin-left: 50px;
     position: relative;
+}
+@media (max-width: 1040px) {
+    .parts{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 1;
+        
+    }
+    .parts #part1{
+        max-width: 100%;
+    }
+    .parts #part2{
+        display: none;
+    }
+  
 }
 
 #img2{

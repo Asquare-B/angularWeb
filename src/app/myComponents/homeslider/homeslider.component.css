@@ -29,6 +29,9 @@
     padding-bottom: 30px;
     justify-content: center;
 }
+
+
+
 @media(max-width: 767px){
     .con1{
       max-width: 50%;
@@ -63,9 +66,11 @@
       position: relative;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
-      padding-bottom: 40px;
       
+      justify-content: space-evenly;
+      padding-bottom: 10px;
+      flex: 1;
+      flex-wrap: wrap;
   }
 
   .service .title{
