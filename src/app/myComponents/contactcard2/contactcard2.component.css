@@ -86,36 +86,80 @@ b{
     font-weight: 500;
     font-weight: bolder;
 }
-@media(max-width: 767px){
+@media(max-width: 1100px){
     .con1{
-      max-width: 50%;
-      margin-bottom: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    .part{
+        max-width: 100%;
         margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+      }
+      .part{
+          margin-bottom: 30px;
+      }
+      .part .title{
+          padding-left: 100px;
+      }
+      .part .ques{
+          padding-left: 150px;
+      }
+  }
+@media (max-width: 800px) {
+    .con1{
+        max-width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+      }
+      .part{
+          margin-bottom: 30px;
+      }
+      .part .title{
+        padding-left: 80px;
     }
-  }
-  @media(max-width: 574px){
-      .con1{
-    max-width: 100%;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .card{
-    display: flex;
-    flex-direction: column;
-  }
-  .part{
-      margin-bottom: 30px;
-  }
-  }
+    .part .ques{
+        padding-left: 60px;
+    }
+    
+}
+@media (max-width: 550px) {
+    .con1{
+        max-width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+      }
+      .part{
+          margin-bottom: 30px;
+      }
+      .part .title{
+        padding-left: 0px;
+    }
+    .part .ques{
+        padding-left: 0px;
+    }
+    
+}
