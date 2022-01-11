@@ -51,6 +51,8 @@ import { DoctorListComponent } from './myComponents/doctor-list/doctor-list.comp
 import { DoctorItemComponent } from './myComponents/doctor-item/doctor-item.component';
 import { DoctorDetailsCardComponent } from './myComponents/doctor-details-card/doctor-details-card.component';
 import { DoctorContactComponent } from './myComponents/doctor-contact/doctor-contact.component';
+import { DiseasesHomeComponent } from './myComponents/diseases-home/diseases-home.component';
+import { DiseasesCardComponent } from './myComponents/diseases-card/diseases-card.component';
 
 @NgModule({
   declarations: [
@@ -101,14 +103,16 @@ import { DoctorContactComponent } from './myComponents/doctor-contact/doctor-con
     DoctorListComponent,
     DoctorItemComponent,
     DoctorDetailsCardComponent,
-    DoctorContactComponent
+    DoctorContactComponent,
+    DiseasesHomeComponent,
+    DiseasesCardComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       {path: 'home', component: HomesliderComponent},
       {path: 'faq', component: FaqComponent},
-      {path: 'dieases', component: MainComponent},
+      {path: 'dieases', component: DiseasesHomeComponent},
       {path: 'hospital', component: HospialListComponent},
       {path: 'doctors', component: DoctorListComponent},
       {path: 'appointment', component: ApplicationComponent},
