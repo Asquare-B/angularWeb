@@ -53,6 +53,10 @@ import { DoctorDetailsCardComponent } from './myComponents/doctor-details-card/d
 import { DoctorContactComponent } from './myComponents/doctor-contact/doctor-contact.component';
 import { DiseasesHomeComponent } from './myComponents/diseases-home/diseases-home.component';
 import { DiseasesCardComponent } from './myComponents/diseases-card/diseases-card.component';
+import { ClinicHomeComponent } from './myComponents/clinic-home/clinic-home.component';
+import { ClinicFormComponent } from './myComponents/clinic-form/clinic-form.component';
+import { ClinicCardComponent } from './myComponents/clinic-card/clinic-card.component';
+import { ClinicDetailsComponent } from './myComponents/clinic-details/clinic-details.component';
 
 @NgModule({
   declarations: [
@@ -105,7 +109,11 @@ import { DiseasesCardComponent } from './myComponents/diseases-card/diseases-car
     DoctorDetailsCardComponent,
     DoctorContactComponent,
     DiseasesHomeComponent,
-    DiseasesCardComponent
+    DiseasesCardComponent,
+    ClinicHomeComponent,
+    ClinicFormComponent,
+    ClinicCardComponent,
+    ClinicDetailsComponent
   ],
   imports: [
     BrowserModule,
