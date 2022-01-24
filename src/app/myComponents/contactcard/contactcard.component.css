@@ -9,8 +9,8 @@
 
 
 .card{
-    background-color: #fff;
-    box-shadow: 0 10px 30px #0000000d;
+    background-color: rgb(219, 214, 214);
+    box-shadow: 0 10px 30px #5f5b5b0d;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
