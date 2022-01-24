@@ -17,6 +17,9 @@ import { ContactItemComponent } from './myComponents/contact-item/contact-item.c
 import { EmergencyComponent } from './myComponents/emergency/emergency.component';
 import { FooterComponent } from './myComponents/footer/footer.component';
 import { ProfileComponent } from './myComponents/profile/profile.component';
+import { ApplicationFormComponent } from './myComponents/application-form/application-form.component';
+import { DoctorFormComponent } from './myComponents/doctor-form/doctor-form.component';
+import { ContactFormComponent } from './myComponents/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { ProfileComponent } from './myComponents/profile/profile.component';
     ContactItemComponent,
     EmergencyComponent,
     FooterComponent,
-    ProfileComponent
+    ProfileComponent,
+    ApplicationFormComponent,
+    DoctorFormComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
