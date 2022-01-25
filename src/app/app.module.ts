@@ -52,6 +52,24 @@ import { ClinicHomeComponent } from './myComponents/clinic-home/clinic-home.comp
 import { ClinicFormComponent } from './myComponents/clinic-form/clinic-form.component';
 import { ClinicCardComponent } from './myComponents/clinic-card/clinic-card.component';
 import { ClinicDetailsComponent } from './myComponents/clinic-details/clinic-details.component';
+import { HUApplicationFormComponent } from './myComponents/hu-application-form/hu-application-form.component';
+import { HUApplicationItemComponent } from './myComponents/hu-application-item/hu-application-item.component';
+import { HUApplicationListComponent } from './myComponents/hu-application-list/hu-application-list.component';
+import { HUContactFormComponent } from './myComponents/hu-contact-form/hu-contact-form.component';
+import { HUContactHomeComponent } from './myComponents/hu-contact-home/hu-contact-home.component';
+import { HUContactItemComponent } from './myComponents/hu-contact-item/hu-contact-item.component';
+import { HUContactcardComponent } from './myComponents/hu-contactcard/hu-contactcard.component';
+import { HUDetailsFormComponent } from './myComponents/hu-details-form/hu-details-form.component';
+import { HUDetailsHomeComponent } from './myComponents/hu-details-home/hu-details-home.component';
+import { HUDoctorFormComponent } from './myComponents/hu-doctor-form/hu-doctor-form.component';
+import { HUDoctorItemComponent } from './myComponents/hu-doctor-item/hu-doctor-item.component';
+import { HUDoctorListComponent } from './myComponents/hu-doctor-list/hu-doctor-list.component';
+import { HUEmergencyComponent } from './myComponents/hu-emergency/hu-emergency.component';
+import { HUHeaderComponent } from './myComponents/hu-header/hu-header.component';
+import { HUNavbarComponent } from './myComponents/hu-navbar/hu-navbar.component';
+import { HUNavbarSideComponent } from './myComponents/hu-navbar-side/hu-navbar-side.component';
+import { HUProfileComponent } from './myComponents/hu-profile/hu-profile.component';
+import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
 
 @NgModule({
   declarations: [
@@ -103,7 +121,25 @@ import { ClinicDetailsComponent } from './myComponents/clinic-details/clinic-det
     ClinicHomeComponent,
     ClinicFormComponent,
     ClinicCardComponent,
-    ClinicDetailsComponent
+    ClinicDetailsComponent,
+    HUApplicationFormComponent,
+    HUApplicationItemComponent,
+    HUApplicationListComponent,
+    HUContactFormComponent,
+    HUContactHomeComponent,
+    HUContactItemComponent,
+    HUContactcardComponent,
+    HUDetailsFormComponent,
+    HUDetailsHomeComponent,
+    HUDoctorFormComponent,
+    HUDoctorItemComponent,
+    HUDoctorListComponent,
+    HUEmergencyComponent,
+    HUHeaderComponent,
+    HUNavbarComponent,
+    HUNavbarSideComponent,
+    HUProfileComponent,
+    HUUserComponent,
   ],
   imports: [
     BrowserModule,
@@ -119,6 +155,7 @@ import { ClinicDetailsComponent } from './myComponents/clinic-details/clinic-det
       {path: 'signin', component: SigninComponent},
       {path: 'signup', component: SignupComponent},
       {path: 'clinichome', component: ClinicHomeComponent},
+      {path: 'hospitaluser', component: HUUserComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
     FormsModule
