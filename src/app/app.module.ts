@@ -155,7 +155,12 @@ import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
       {path: 'signin', component: SigninComponent},
       {path: 'signup', component: SignupComponent},
       {path: 'clinichome', component: ClinicHomeComponent},
-      {path: 'hospitaluser', component: HUUserComponent},
+      {path: 'hospitaluser', component: HUUserComponent,
+          children:[
+            {path: 'hu-app-list', component: HUApplicationListComponent},
+            {path: 'hu-doc-list', component: HUDoctorListComponent},
+          ]
+        },
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
     FormsModule
