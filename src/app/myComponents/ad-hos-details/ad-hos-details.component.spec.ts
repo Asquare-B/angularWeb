@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HUApplicationFormComponent } from './hu-application-form.component';
+import { AdHosDetailsComponent } from './ad-hos-details.component';
 
-describe('HUApplicationFormComponent', () => {
-  let component: HUApplicationFormComponent;
-  let fixture: ComponentFixture<HUApplicationFormComponent>;
+describe('AdHosDetailsComponent', () => {
+  let component: AdHosDetailsComponent;
+  let fixture: ComponentFixture<AdHosDetailsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HUApplicationFormComponent ]
+      declarations: [ AdHosDetailsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HUApplicationFormComponent);
+    fixture = TestBed.createComponent(AdHosDetailsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

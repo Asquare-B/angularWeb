@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './myComponents/footer/footer.component';
@@ -52,7 +51,6 @@ import { ClinicHomeComponent } from './myComponents/clinic-home/clinic-home.comp
 import { ClinicFormComponent } from './myComponents/clinic-form/clinic-form.component';
 import { ClinicCardComponent } from './myComponents/clinic-card/clinic-card.component';
 import { ClinicDetailsComponent } from './myComponents/clinic-details/clinic-details.component';
-import { HUApplicationFormComponent } from './myComponents/hu-application-form/hu-application-form.component';
 import { HUApplicationItemComponent } from './myComponents/hu-application-item/hu-application-item.component';
 import { HUApplicationListComponent } from './myComponents/hu-application-list/hu-application-list.component';
 import { HUContactFormComponent } from './myComponents/hu-contact-form/hu-contact-form.component';
@@ -70,6 +68,33 @@ import { HUNavbarComponent } from './myComponents/hu-navbar/hu-navbar.component'
 import { HUNavbarSideComponent } from './myComponents/hu-navbar-side/hu-navbar-side.component';
 import { HUProfileComponent } from './myComponents/hu-profile/hu-profile.component';
 import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
+import { AdHomeComponent } from './myComponents/ad-home/ad-home.component';
+import { AdSidebarComponent } from './myComponents/ad-sidebar/ad-sidebar.component';
+import { AdTestimonialsComponent } from './myComponents/ad-testimonials/ad-testimonials.component';
+import { AdWhyusComponent } from './myComponents/ad-whyus/ad-whyus.component';
+import { AdContactComponent } from './myComponents/ad-contact/ad-contact.component';
+import { AdAboutusComponent } from './myComponents/ad-aboutus/ad-aboutus.component';
+import { AdFooterComponent } from './myComponents/ad-footer/ad-footer.component';
+import { AdDiseasesListComponent } from './myComponents/ad-diseases-list/ad-diseases-list.component';
+import { AdHospitalHomeComponent } from './myComponents/ad-hospital-home/ad-hospital-home.component';
+import { AdHosRegListComponent } from './myComponents/ad-hos-reg-list/ad-hos-reg-list.component';
+import { AdHosListComponent } from './myComponents/ad-hos-list/ad-hos-list.component';
+import { AdHosActivityComponent } from './myComponents/ad-hos-activity/ad-hos-activity.component';
+import { AdHosAppointmentComponent } from './myComponents/ad-hos-appointment/ad-hos-appointment.component';
+import { AdHosContactComponent } from './myComponents/ad-hos-contact/ad-hos-contact.component';
+import { AdHosDetailsComponent } from './myComponents/ad-hos-details/ad-hos-details.component';
+import { AdDoctorHomeComponent } from './myComponents/ad-doctor-home/ad-doctor-home.component';
+import { AdDocListComponent } from './myComponents/ad-doc-list/ad-doc-list.component';
+import { AdDocRegListComponent } from './myComponents/ad-doc-reg-list/ad-doc-reg-list.component';
+import { AdDocActivityComponent } from './myComponents/ad-doc-activity/ad-doc-activity.component';
+import { AdDocProfileComponent } from './myComponents/ad-doc-profile/ad-doc-profile.component';
+import { AdFaqComponent } from './myComponents/ad-faq/ad-faq.component';
+import { HuApplicationListAcComponent } from './myComponents/hu-application-list-ac/hu-application-list-ac.component';
+import { HuApplicationListRjComponent } from './myComponents/hu-application-list-rj/hu-application-list-rj.component';
+import { HuApplicationItemAcComponent } from './myComponents/hu-application-item-ac/hu-application-item-ac.component';
+import { HuApplicationItemRjComponent } from './myComponents/hu-application-item-rj/hu-application-item-rj.component';
+import { HuDoctorItemRqComponent } from './myComponents/hu-doctor-item-rq/hu-doctor-item-rq.component';
+import { HuDoctorListRqComponent } from './myComponents/hu-doctor-list-rq/hu-doctor-list-rq.component';
 
 @NgModule({
   declarations: [
@@ -122,7 +147,6 @@ import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
     ClinicFormComponent,
     ClinicCardComponent,
     ClinicDetailsComponent,
-    HUApplicationFormComponent,
     HUApplicationItemComponent,
     HUApplicationListComponent,
     HUContactFormComponent,
@@ -140,6 +164,33 @@ import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
     HUNavbarSideComponent,
     HUProfileComponent,
     HUUserComponent,
+    AdHomeComponent,
+    AdSidebarComponent,
+    AdTestimonialsComponent,
+    AdWhyusComponent,
+    AdContactComponent,
+    AdAboutusComponent,
+    AdFooterComponent,
+    AdDiseasesListComponent,
+    AdHospitalHomeComponent,
+    AdHosRegListComponent,
+    AdHosListComponent,
+    AdHosActivityComponent,
+    AdHosAppointmentComponent,
+    AdHosContactComponent,
+    AdHosDetailsComponent,
+    AdDoctorHomeComponent,
+    AdDocListComponent,
+    AdDocRegListComponent,
+    AdDocActivityComponent,
+    AdDocProfileComponent,
+    AdFaqComponent,
+    HuApplicationListAcComponent,
+    HuApplicationListRjComponent,
+    HuApplicationItemAcComponent,
+    HuApplicationItemRjComponent,
+    HuDoctorItemRqComponent,
+    HuDoctorListRqComponent,
   ],
   imports: [
     BrowserModule,
@@ -159,6 +210,11 @@ import { HUUserComponent } from './myComponents/hu-user/hu-user.component';
           children:[
             {path: 'hu-app-list', component: HUApplicationListComponent},
             {path: 'hu-doc-list', component: HUDoctorListComponent},
+            {path: 'hu-doc-form', component: HUDoctorFormComponent},
+            {path: 'hu-detail-form', component: HUDetailsFormComponent},
+            {path: 'hu-contact-form', component: HUContactHomeComponent},
+            {path: 'hu-profile', component: HUProfileComponent},
+
           ]
         },
       {path: '', redirectTo: '/home', pathMatch: 'full'},
