@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import {MatTabsModule} from '@angular/material/tabs'; 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -193,6 +195,8 @@ import { HuDoctorListRqComponent } from './myComponents/hu-doctor-list-rq/hu-doc
     HuDoctorListRqComponent,
   ],
   imports: [
+    MatTabsModule,
+    BrowserAnimationsModule,
     BrowserModule,
     RouterModule.forRoot([
       {path: 'home', component: HomesliderComponent},

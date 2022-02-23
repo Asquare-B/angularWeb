@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './hu-doctor-list.component.html',
   styleUrls: ['./hu-doctor-list.component.css']
 })
-export class HUDoctorListComponent implements OnInit {
+
+export class HUDoctorListComponent{
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

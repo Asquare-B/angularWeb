@@ -1,24 +1,15 @@
-<div class="con1">
-    <div class="tab">
-        <ul>
-            <li>Requests</li>
-            <li>Accepted</li>
-            <li>Declined</li>
-        </ul>
-        <div class="content">
-            <div class="content-value">
-                <app-hu-doctor-item></app-hu-doctor-item>
-                <app-hu-doctor-item></app-hu-doctor-item>
-                <app-hu-doctor-item></app-hu-doctor-item>
-            </div>
-            <div class="content-value">
-                <app-hu-doctor-item></app-hu-doctor-item>
-                <app-hu-doctor-item></app-hu-doctor-item>
-            </div>
-            <div class="content-value">
-                <app-hu-doctor-item></app-hu-doctor-item>
-            </div>
-        </div>
-    </div>
-</div>
-
+<mat-tab-group>
+    <mat-tab label="Pending">
+        <app-hu-doctor-item></app-hu-doctor-item>
+        <app-hu-doctor-item></app-hu-doctor-item>
+        <app-hu-doctor-item></app-hu-doctor-item>
+    </mat-tab>
+    <mat-tab label="Accepted"> 
+        <app-hu-doctor-item></app-hu-doctor-item>
+        <app-hu-doctor-item></app-hu-doctor-item>
+    </mat-tab>
+    <mat-tab label="Declined">
+        <app-hu-doctor-item></app-hu-doctor-item>
+    </mat-tab>
+  </mat-tab-group>
+  
