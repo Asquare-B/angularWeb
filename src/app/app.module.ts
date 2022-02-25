@@ -91,12 +91,9 @@ import { AdDocRegListComponent } from './myComponents/ad-doc-reg-list/ad-doc-reg
 import { AdDocActivityComponent } from './myComponents/ad-doc-activity/ad-doc-activity.component';
 import { AdDocProfileComponent } from './myComponents/ad-doc-profile/ad-doc-profile.component';
 import { AdFaqComponent } from './myComponents/ad-faq/ad-faq.component';
-import { HuApplicationListAcComponent } from './myComponents/hu-application-list-ac/hu-application-list-ac.component';
-import { HuApplicationListRjComponent } from './myComponents/hu-application-list-rj/hu-application-list-rj.component';
 import { HuApplicationItemAcComponent } from './myComponents/hu-application-item-ac/hu-application-item-ac.component';
 import { HuApplicationItemRjComponent } from './myComponents/hu-application-item-rj/hu-application-item-rj.component';
 import { HuDoctorItemRqComponent } from './myComponents/hu-doctor-item-rq/hu-doctor-item-rq.component';
-import { HuDoctorListRqComponent } from './myComponents/hu-doctor-list-rq/hu-doctor-list-rq.component';
 
 @NgModule({
   declarations: [
@@ -187,12 +184,9 @@ import { HuDoctorListRqComponent } from './myComponents/hu-doctor-list-rq/hu-doc
     AdDocActivityComponent,
     AdDocProfileComponent,
     AdFaqComponent,
-    HuApplicationListAcComponent,
-    HuApplicationListRjComponent,
     HuApplicationItemAcComponent,
     HuApplicationItemRjComponent,
     HuDoctorItemRqComponent,
-    HuDoctorListRqComponent,
   ],
   imports: [
     MatTabsModule,
