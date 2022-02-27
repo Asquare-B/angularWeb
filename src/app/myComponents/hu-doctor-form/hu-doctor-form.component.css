@@ -1,24 +1,45 @@
+.con1{
+    margin: 20px;
+}
+.field{
+    margin: 15px 0px;
+}
+.field label{
+    margin-left:15px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.field input{
+    width:500px;
+    padding: 12px;
+}
 
+.field select{
+    width: 250px;
+    padding: 12px;
+}
 
-.testbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: inherit;
-    padding: 20px;
-    }
-    form {
+#dob{
+    width: 200px;
+    text-align: end;
+}
+
+#age{
+    width:250px;
+}
+form {
     width: 100%;
     padding: 20px;
+    
     border-radius: 6px;
     background: #fff;
     box-shadow: 0 0 8px navy; 
-    }
-    input, select, textarea {
-    margin-bottom: 10px;
+}
+input, select, textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
-    }
+}
+/*
+
     input {
     width: calc(100% - 300px);
     padding: 5px;
@@ -145,3 +166,4 @@
     padding-bottom:5px;
     }
     }
+    */

@@ -1,27 +1,35 @@
+<div class="con1">
+  <form>
+    <div class="field">
+      <label class="col-sm-2">Name : <span> * </span></label>
+      <input id="name" type="text" for="name" required class="col-sm-8" placeholder="Full name">
+    </div>
+    <div class="field">
+      <label class="col-sm-2">Photo : <span> * </span></label>
+      <input type="file" id="myFile" name="filename" required class="col-sm-8">
+    </div>
+    <div class="field">
+      <label class="col-sm-2">Age : <span> * </span></label>
+        <input id="age" type="number" name="age" required class="col-sm-6">
+    
+      <label class="col-sm-2">Gender : <span> * </span></label>
+      <select class="col-sm-6">
+        <option selected>Choose Gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="field">
+      <label class="col-sm-2">Date Of Birth : <span> * </span></label>
+      <input id="dob" type="date" name="dob" required class="col=sm-8">
+    </div>
+  </form>
+</div>
+
 
 <div class="testbox">
-    <form action="/">
-      <div class="item">
-        <label for="name">Name<span>*</span></label>
-        <input id="name" type="text" name="name" required class="input"/>
-      </div>
-      <div class="item">
-        <label for="photo">Photo<span>*</span></label>
-        <input type="file" id="myFile" name="filename">
-      </div>
-      <div class="item" >
-        <label for="age">Age<span>*</span></label>
-        <input id="age" type="number" name="age" required/>
-      </div>
-      <div class="item">
-        <label for="Gender">Gender<span>*</span></label>
-        <select class="form-select" aria-label="Default select example" style="width: 200px; height: 30px;">
-          <option selected>Gender</option>
-          <option value="1">Male</option>
-          <option value="2">Female</option>
-          <option value="3">Other</option>
-        </select>
-      </div>
+    <form>
       <div class="item">
         <label for="dob">Date Of Birth<span>*</span></label>
         <input id="dob" type="date" name="dob" required/>
@@ -50,7 +58,7 @@
         <div class="item">
           <p>Speciality</p>
           <select style="width: 200px; height: 30px;">
-            <option selected value="" disabled selected></option>
+            <option value="Nothing" selected > Your choice</option>
             <option value="allergy" >ALLERGY AND IMMUNOLOGY</option>
             <option value="anest">ANESTHESIOLOGY</option>
             <option value="derm">DERMATOLOGY</option>
